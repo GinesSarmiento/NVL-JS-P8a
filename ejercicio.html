@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NVL-JS-P8a</title>
+</head>
+<body>
+	<script>
+    	//Declaramos la cadena que vamos a utilizar
+    	var cadena = 'Amigo';
+		
+		//Declaramos la variable y modificamos la cadena con replace
+		var cadena1 = cadena.replace('A','a');
+		//Declaramos la variable y modificamos la cadena con toLowerCase
+		var cadena2 = cadena.toLowerCase();
+		/*Declaramos la variable y modificamos la cadena manualmente el primer carácter
+		el resto de la cadena lo concatenamos con slice*/
+		var cadena3 = 'a' + cadena.slice(1,5);
+		
+		//Mostramos los resultados en la página web
+		document.write('<p>' + cadena1 + ' - metodo replace<br/>' + cadena2 + ' - metodo toLowerCase<br/>' + cadena3 + ' - método slice<p/>')
+	</script>
+</body>
+</html>
